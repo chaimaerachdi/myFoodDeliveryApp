@@ -1,0 +1,133 @@
+.wrapper{
+    margin: 0 auto;
+    width: auto;
+    padding: 5%;
+}
+.text-center{
+    text-align: center;
+}
+
+/* css for footer  */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/* css for menu */
+.menu{
+    border-bottom: 1px solid gray;
+     
+     /* background-color: black; */
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* css for main content */
+.main_content{
+   background-color: #f1f2f6;
+   padding: 11% 0;
+   padding-bottom: 4%;
+}
+
+/* css for cards  */
+.col-3{
+    width: 12%;
+    background-color: #fff;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+.row{
+    display: inline;
+}
+
+/* I will use media query to  be sure that my  my website will be responsive */
+
+.flex-container{
+    display: flex;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 50%;
+}
+table tr th{
+    border-bottom: 2px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+/* create add button's style manually */
+.btn-primary{
+    background-color: #1e90ff;
+    border-radius: 20%; 
+    
+    /* margin: 100%; */
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+/* create add button's style manually */
+.btn-secondary{
+    background-color: #7bed9f;
+    border-radius: 20%;
+    padding: 2%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+/* create delete button's style manually */
+.btn-danger{
+    background-color: #ff6b81;
+    border-radius: 20%;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+.tbl-30{
+    /* this is to apply a 30 per cent width on a tablee */
+    width: 30%;
+
+}
+input{
+    border-radius: 20%;
+    padding: 1%;
+}
+table tr{
+    margin: 20%;
+}
+.success{
+    color: #2ed573 ;
+}
+.error{
+    color: #ff4757;
+}
